@@ -11,7 +11,8 @@ class Factorial {
     }
   
     _factorial(num) {
-      if (num <= 1) return 1;
+      if (num ==0 || num==1) 
+          return 1;
       return num * this._factorial(num - 1);
     }
   }
